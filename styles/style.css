@@ -1,0 +1,66 @@
+/* Подключение шрифтов */
+@import "fonts.css";
+/* Подключение основных стилей */
+@import "base.css";
+/* Подключение универсальных стилей */
+@import "typography.css";
+/* Подключение стилей относящихся к header */
+@import "header.css";
+/* Подключение стилей относящихся к footer */
+@import "footer.css";
+      /* Сайдбар */
+      .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100vh;
+        background-color: #7e9cba;
+        padding: 20px;
+        z-index: 10;
+        transition: width 0.3s ease;
+    }
+
+    .sidebar img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .sidebar li {
+        margin-bottom: 15px;
+        
+    }
+
+    .sidebar ul li {
+        margin: 10px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        text-align: left;
+        padding: 10px;
+        transition: color 0.3s ease, background-color 0.3s ease;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .sidebar ul li:hover {
+        background-color: #007bff; /* Синий фон при наведении */
+        color: #fff; /* Белый текст при наведении */
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+    }

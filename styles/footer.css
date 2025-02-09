@@ -1,0 +1,27 @@
+.footer {
+    background-color: #fbf9f4;
+}
+        /* Footer */
+        footer {
+            margin-left: 240px;
+            background-color: #38ae4c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            bottom: 0;
+        }
+
+        footer a {
+            color: #000000;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+                /* Основной контейнер */
+                .container {
+                    display: flex;
+                    flex-direction: row;
+                }
